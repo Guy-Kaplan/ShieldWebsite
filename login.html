@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="site.css" rel="stylesheet" />
+    <script src="site.js"></script>
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4"><img src="Images/SHIELD_logo.png" width="100" height="100"></div><!--id="image1" -->
+            <div class="col-4"><h1>S.H.I.E.L.D.</h1></div><!--id="title"-->
+            <div class="col-4"><img src="Images/SHIELD_logo.png" width="100" height="100"></div><!--id="image2"-->
+        </div>
+    </div>
+    <br>
+    <h2>Strategic Homeland Intervention, Enforcement and Logistics Division</h2>
+    <a href="index.html">Home Page</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="agents.html">Agents</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="trailers.html">Trailers</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="extra.html">Extra</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="map.html">Map</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="login.html">Login</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <h3>Login</h3>
+    <h5>Enter agent name</h5>
+    <input id="agentBOX" type="text" size="26" placeholder="Enter agent name" autofocus><br>
+    <input id="loginStatusBOX" type="text" size="26" value="Not logged in" style="text-align:center;" readonly>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="buttons">
+                <button class="btn btn-primary" onclick="checkName()">Login</button>
+                &nbsp;&nbsp;&nbsp;
+                <button class="btn btn-default" onclick="reset()">Reset</button>
+                &nbsp;&nbsp;&nbsp;
+                <button class="btn btn-info" onclick="getInfo()">Info</button>
+                &nbsp;&nbsp;&nbsp;
+                <button class="btn btn-success" onclick="displayMissions()">Missions</button>
+                &nbsp;&nbsp;&nbsp;
+                <button class="btn btn-warning" onclick="checkInsight()">Insight Bay</button>
+                &nbsp;&nbsp;&nbsp;
+                <button class="btn btn-danger" onclick="signOut()">Sign Out</button>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+
+</body>
+</html>

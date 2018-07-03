@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="site.css" rel="stylesheet" />
+    <script src="site.js"></script>
+    <title>Map</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4"><img src="Images/SHIELD_logo.png" width="100" height="100"></div><!--id="image1" -->
+            <div class="col-4"><h1>S.H.I.E.L.D.</h1></div><!--id="title"-->
+            <div class="col-4"><img src="Images/SHIELD_logo.png" width="100" height="100"></div><!--id="image2"-->
+        </div>
+    </div>
+    <br>
+    <h2>Strategic Homeland Intervention, Enforcement and Logistics Division</h2>
+    <a href="index.html">Home Page</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="agents.html">Agents</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="trailers.html">Trailers</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="extra.html">Extra</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="map.html">Map</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="login.html">Login</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <h3>Map</h3>
+
+    <iframe width="900" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=<?php echo urlencode($address); ?>&amp;output=embed"></iframe>
+
+    <br><br><br>
+
+</body>
+</html>

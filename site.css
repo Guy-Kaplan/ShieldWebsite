@@ -1,0 +1,68 @@
+﻿body {
+    background-image: url("Images/Shield-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+p{
+    color: white;
+    text-align: justify;
+}
+h1{
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: white;
+}
+a {
+    color: gold;
+    background-color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+div {
+    margin-top: 10px;
+
+}
+table{
+    color: white;
+ 
+}
+th {
+    font-size: 24px;
+}
+td {
+    font-size: 18px;
+}
+tr:hover {
+    color: black;
+    background-color: darkgoldenrod;
+}
+tr:first-child:hover {
+    color: red;
+    background-color: black;
+}
+#clearenceLevel {
+    color: white;
+}
+#clearenceLevel:hover{
+    color: white;
+    background-color: none;
+}
+#buttons{
+    margin: auto;
+    width: 50%;
+}
+
